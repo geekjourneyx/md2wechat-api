@@ -119,7 +119,8 @@ curl -X POST "http://localhost:8080/api/v1/convert-and-draft" \
   -d '{
     "markdown": "# 标题\n\n这是一个**加粗**文本的例子。",
     "theme": "default",
-    "fontSize": "medium"
+    "fontSize": "medium",
+    "coverImageUrl": "https://youke1.picui.cn/s1/2025/07/18/687931f24bede.jpeg"
   }'
 ```
 

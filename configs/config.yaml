@@ -1,0 +1,10 @@
+server:
+  port: 8080
+  mode: debug  # debug, release
+
+log:
+  level: info  # debug, info, warn, error
+
+md2wechat:
+  base_url: https://www.md2wechat.cn
+  api_key: "wme_6355f226126d3599e504b473689b7fd81dfb1fd6e0f6ad1bb8413c235f9a2709"  # 如果需要 API Key，在这里配置 
